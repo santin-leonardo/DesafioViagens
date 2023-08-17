@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+#main {
+    width:592px;
+    margin: 0 auto 64px;
+    /* o primeiro valor é o top o segundo é as lateral direita e o terceiro é embaixo, e se tivesse o quarto seria a lateral esquerda*/
+}
+
+#main img {
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 500;
+    color: #3F3D56;
+    
+
+    
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+h1 span {
+    font-weight: 700;
+    color: #EE24FF;
+}
+
+p {
+    color: #828282;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 16;
+    margin-bottom: 64;
+    text-align: center;
+    
+}
+ 
+p span{
+    color: #3F3D56;
+    font-weight: 700;
+
+}
+ #footer a{
+    color: #3F3D56;
+    font-size: 15px;
+    line-height: 147.682%px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#line {
+    width: 391px;
+    height: 0px;
+
+    border: 1px  solid #ECEFF2;
+    margin: 0 auto 16px;
+}
+#footer a + a{
+    margin-left: 42px;
+    
+}
+#wave {
+    position:relative;
+    margin-top: 40.83px;
+    width: 100%;
+     
+   
+}
